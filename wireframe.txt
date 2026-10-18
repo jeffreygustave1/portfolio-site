@@ -1,0 +1,49 @@
+PERSONAL PORTFOLIO SITE PLAN
+
+HOME PAGE
+
++----------------------------------+
+| Jeffrey Gustave Portfolio   💎   |
++----------------------------------+
+| Home | Projects | About          |
++----------------------------------+
+| Welcome Section                  |
+| Featured Work Section            |
++----------------------------------+
+| Footer                           |
++----------------------------------+
+
+PROJECTS PAGE
+
++----------------------------------+
+| Projects                    💎   |
++----------------------------------+
+| Home | Projects | About          |
++----------------------------------+
+| PC Building Projects             |
+| Web Development Projects         |
++----------------------------------+
+| Footer                           |
++----------------------------------+
+
+ABOUT PAGE
+
++----------------------------------+
+| About Me                    💎   |
++----------------------------------+
+| Home | Projects | About          |
++----------------------------------+
+| About Jeffrey                    |
+| Contact Information              |
++----------------------------------+
+| Footer                           |
++----------------------------------+
+
+COLOR PALETTE
+- Dark Blue
+- Silver
+- White
+
+FONT CHOICES
+- Arial
+- Verdana
