@@ -1,53 +1,36 @@
 /* Type Selectors */
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f8ff;
     color: #222222;
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 16px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 h1 {
     color: #003366;
     text-align: center;
     border-bottom: 3px solid #66a3ff;
-    padding: 10px;
+    padding: 16px;
+}
+
+h2 {
+    color: #003366;
 }
 
 p {
     line-height: 1.6;
 }
 
-/* ID Selector */
+/* Navigation */
 
-#about {
-    background-color: #e6f0ff;
-    border: 2px solid #003366;
-    padding: 15px;
-    margin: 20px 0;
-}
-
-/* Class Selectors */
-
-.section {
-    background-color: white;
-    border: 2px solid #66a3ff;
-    padding: 15px;
-    margin: 20px 0;
-}
-
-.profile-pic {
-    border: 4px solid #66a3ff;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 10px;
-}
-
-/* Navigation Layout */
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
     list-style: none;
     padding: 0;
 }
@@ -58,22 +41,58 @@ nav a {
     font-weight: bold;
 }
 
-/* Main Layout Using Grid */
+nav a:hover {
+    color: #66a3ff;
+}
+
+/* ID Selector */
+
+#about {
+    background-color: #e6f0ff;
+    border: 2px solid #003366;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+/* Class Selectors */
+
+.section {
+    background-color: white;
+    border: 2px solid #66a3ff;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+/* Logo */
+
+.profile-pic {
+    display: block;
+    margin: 16px auto;
+    border: 4px solid #66a3ff;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid Layout */
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 24px;
+    margin-top: 24px;
 }
 
-/* Make Images Responsive */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+/* Footer */
+
+footer {
+    margin-top: 24px;
+    text-align: center;
 }
 
-/* Tablet Layout */
+/* Tablet */
+
 @media (max-width: 768px) {
 
     main {
@@ -86,11 +105,12 @@ img {
     }
 }
 
-/* Mobile Layout */
+/* Mobile */
+
 @media (max-width: 320px) {
 
     body {
-        margin: 10px;
+        padding: 8px;
     }
 
     h1 {
@@ -98,7 +118,6 @@ img {
     }
 
     nav ul {
-        gap: 10px;
+        gap: 8px;
     }
 }
-
